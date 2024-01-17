@@ -1,0 +1,9 @@
+version: "3"
+services:
+  personalwebsite:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: PersonalWebsite
+    ports:
+      - "3000:3000"
